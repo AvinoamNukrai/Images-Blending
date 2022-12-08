@@ -24,6 +24,8 @@ The software is built from 4 steps:
       where (·) denotes pixel-wise multiplication.
   
   5. Reconstruct the resulting blended image from the Laplacian pyramid Lout (using ones for coefficients).
+
+
   
 Consider the following example: 
   
