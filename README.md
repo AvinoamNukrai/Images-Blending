@@ -13,17 +13,17 @@ The software is built from 4 steps:
 
 4. Pyramid Blending, in the follows steps: 
 
-  - Construct Laplacian pyramids L1 and L2 for the input images im1 and im2, respectively.
+    - Construct Laplacian pyramids L1 and L2 for the input images im1 and im2, respectively.
   
-  - Construct a Gaussian pyramid Gm for the provided mask (convert it first to np.float64).
+    - Construct a Gaussian pyramid Gm for the provided mask (convert it first to np.float64).
   
-  - Construct the Laplacian pyramid Lout of the blended image for each level k by:
+    - Construct the Laplacian pyramid Lout of the blended image for each level k by:
   
-     Lout[k] = Gm[k] · L1[k] + (1 − Gm[k]) · L2[k]
+      Lout[k] = Gm[k] · L1[k] + (1 − Gm[k]) · L2[k]
   
-     where (·) denotes pixel-wise multiplication.
+      where (·) denotes pixel-wise multiplication.
   
-  4. Reconstruct the resulting blended image from the Laplacian pyramid Lout (using ones for coefficients).
+  5. Reconstruct the resulting blended image from the Laplacian pyramid Lout (using ones for coefficients).
   
 Consider the following example: 
   
