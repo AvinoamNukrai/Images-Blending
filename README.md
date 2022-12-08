@@ -19,9 +19,9 @@ The software is built from 4 steps:
   
   3. Construct the Laplacian pyramid Lout of the blended image for each level k by:
   
-  Lout[k] = Gm[k] · L1[k] + (1 − Gm[k]) · L2[k]
+     Lout[k] = Gm[k] · L1[k] + (1 − Gm[k]) · L2[k]
   
-  where (·) denotes pixel-wise multiplication.
+     where (·) denotes pixel-wise multiplication.
   
   4. Reconstruct the resulting blended image from the Laplacian pyramid Lout (using ones for coefficients).
   
@@ -34,6 +34,7 @@ Without blending, given the two following images of apple and orange, we'll get 
 
 With blending, given the upper two images and the binary mask bellow, we will get the down-right result: 
 
-![blending_fruits](https://user-images.githubusercontent.com/64755588/206401777-bfe3570f-5a79-42d2-8690-8f653fbd32c8.png)
+![blending_fruits](https://user-images.githubusercontent.com/64755588/206403429-69cc550b-f1cf-45fc-b6b6-1bf6c93b4818.png)
+
 
 Cool, isn't?
