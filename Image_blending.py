@@ -1,4 +1,4 @@
-# Written by Avinoam Nukrai, Image processing course - Hebrew U 2023
+# Written by Avinoam Nukrai
 import os
 import numpy as np
 from matplotlib import pyplot as plt
