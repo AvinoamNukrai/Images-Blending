@@ -1,7 +1,8 @@
 # Images-Blending
 
-In this project I've implemented images blending. Using image pyramids, low-pass and band-pass filtering, I've created well designed algorithm that shows great results.
+In this project I've implemented Images Blending and Hybrid Images. Using image pyramids, low-pass and band-pass filtering, I've created well designed algorithm that shows great results.
 I've constructed Gaussian and Laplacian pyramids, and use these to implement pyramid blending, and finally compare the blending results when using different filters in the various expand and reduce operations.
+See the report pdf for a complete overview of the project, in general the blending happens as follows: 
 
 The software is built from 4 steps: 
 
