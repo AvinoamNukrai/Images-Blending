@@ -40,4 +40,14 @@ With blending, given the upper two images and the binary mask bellow, we will ge
 
 ![blending_fruits](https://user-images.githubusercontent.com/64755588/206403429-69cc550b-f1cf-45fc-b6b6-1bf6c93b4818.png)
 
+
+
+
+![bla](https://github.com/AvinoamNukrai/Images-Blending/assets/64755588/4512f536-6a65-4237-bed6-67408e301626)
+
+
+
+
+
+
 Cool, isn't?
